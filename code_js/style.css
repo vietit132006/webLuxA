@@ -1,0 +1,183 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6; /* Khoảng cách giữa các chữ */
+      background-color: rgb(255, 255, 255);
+}
+.menus{
+      display: flex;
+      background-color: rgb(175, 175, 175);
+      padding: 10px;
+      font-style: initial; 
+      justify-content: center; 
+      gap: 80px;
+      align-items: center;
+}
+.wrapper{
+  max-width: 1350px;      /* Chiều rộng tối đa, có thể thay bằng 800px, 1200px tùy bạn */
+  margin: 0 auto;        /* Căn giữa ngang */
+  background-color:  rgb(227, 227, 227);; /* Nền trắng cho vùng nội dung */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ để nổi bật */
+}
+.a{
+      text-decoration: none;  /* Bỏ gạch chân */
+      font-weight: bold;
+      margin-left: 0px;
+      color: black;
+      font-size: 15px;
+}
+.a {
+  padding: 0px 15px;
+  border-right: 1px solid #ccc; /* Chia đường kẻ dọc giữa các ô */
+  margin: 0px;
+}
+.a:last-child { 
+  border-right: none; /* Bỏ đường kẻ cho ô cuối */
+}
+.a:hover{
+      color: rgb(234, 233, 233);
+}
+.logo img{
+      height: 55px;
+}  
+.banner img{
+      max-width: 1350px;
+      margin: 0px;
+}
+.toggleContent{
+      display: none;
+      padding-left: 10px;
+}
+.header{
+      margin-left: 15px;
+      display: flex;
+      gap: 15px;
+      color: black;
+}
+.header, span{
+      font-weight: 500;
+      color: black;
+}
+.header, span:hover{
+      color: rgb(245, 6, 6);
+}
+.overview{
+      color: black;
+}
+.overview:hover{
+      color: rgb(249, 1, 1);
+}
+.more{
+      margin-left: 10px;
+      display: flex;
+      gap: 20px;
+      padding-top: 5px;
+}
+.more button{
+      color: black;
+      background-color: white;
+      border-radius: 5px;
+      padding: 0px 7px;
+      border: none; /* xóa bỏ viền đen của bottom */
+}
+.more button:hover{
+      color: white;
+      background-color: black;
+}
+hr{
+      margin-top: 10px;
+}
+.footer1{
+      padding: 20px;
+      background-color: rgb(186, 186, 186);
+      justify-items: center;
+      color: rgb(40, 40, 40);
+      font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+      display: flex;
+      
+}
+.product img{
+      max-height: 392px;
+}
+.product p{
+      margin-right: 20px;
+      
+}
+.product{
+      justify-items: center;
+      background-color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+.footer2{
+      background-color: rgb(244, 60, 60);
+      
+}
+.footer2 p{
+      margin-left: 10px;
+}
+.contentt{
+      padding: 10px;
+}
+.footer2 img{
+      height: 607px;
+}
+.footer2 img{
+      width: 1350px;
+      height: 720px;
+      margin: 0px;
+}
+.footer2 h4{
+      margin-left: 20px;
+}
+.logo2 img{
+      border-radius: 120px;
+      height: 100px;
+}
+.button {
+      padding: 6px 200px;
+      margin: 15px 0px;
+      border: none;
+      background-color: #ccc;
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+      font-size: 17px;
+}
+.button:hover{
+      background-color: gray;
+      color: rgb(255, 255, 255);
+      
+      padding: 6px 200px;
+}
+.content2{
+      display: flex;
+      justify-items: center;
+      margin: 10px;
+      gap: 12px;
+}
+.socialNetwork{
+      
+      margin-left: 400px;
+      margin-top: 100px;
+}
+.tongmenu{
+      display: flex;
+}
+.ab{
+      color: black;
+      letter-spacing: 3px; /*Khoảng cách chữ với nhau*/
+      text-decoration: none; /*Bỏ phần gạch chân*/
+}
+.menus3{
+      margin-left: 130px;
+      
+}
+.canbiet{
+      font-size: 20px;
+}
